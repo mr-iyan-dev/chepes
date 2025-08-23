@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
-// import { db } from "../../database/firebase"; // Adjust your Firebase path
-// import { collection, getDocs, updateDoc, doc } from "firebase/firestore";
+import { db } from "../../database/firebase"; // Adjust your Firebase path
+import { collection, getDocs, updateDoc, doc } from "firebase/firestore";
 import icon from "../../assets/person.png";
 const Dashboard = () => {
   const [applications, setApplications] = useState([]);
