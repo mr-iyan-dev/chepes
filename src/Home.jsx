@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-   {/* <Hero /> */}
+   <Hero />
        {/* <Service /> */}
      
     </>
