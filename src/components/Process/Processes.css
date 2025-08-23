@@ -1,0 +1,159 @@
+
+.process {
+    margin-top: 90px;
+}
+
+.container h3 {
+    font: 700 clamp(22px, 3.5vw, 32px) 'markazi', sans-serif;
+    color: var(--gold);
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 5px 0 10px;
+       text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.849);
+}
+.grid {
+    display: grid;
+    gap: 5px
+}
+
+.grid.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+
+
+.step {
+    display: flex;
+    gap: 10px;
+    background: var(--bg);
+    border: 1px dashed var(--gold);
+    padding: 16px;
+    border-radius: 16px;
+    align-items: flex-start;
+
+}
+
+.step:before {
+    counter-increment: step + 0;
+    content: counter(step);
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: var(--gold);
+    color: var(--gold);
+    font-weight: 700
+}
+.step span{
+
+}
+
+.step strong{
+    
+}
+/* ----------FOR TABLET--------------- */
+@media screen and (max-width: 768px) and (min-width:501px){
+      
+.process {
+    margin-top: 40px;
+}
+
+.container h3 {
+       font: 700 clamp(22px, 3.5vw, 32px) 'markazi', sans-serif;
+
+}
+.grid {
+    display: grid;
+    gap: 5px
+}
+
+.grid.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+
+
+.step {
+    display: flex;
+    gap: 10px;
+    background: var(--bg);
+    border: 1px dashed var(--gold);
+    padding: 10px;
+    border-radius: 16px;
+    align-items: flex-start;
+
+}
+
+.step:before {
+    content: counter(step);
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 25px;
+    border-radius: 10px;
+    background: var(--gold);
+    color: var(--gold);
+}
+.step span{
+color: var(--muted);
+font-size: 13px;
+}
+
+.step strong{
+    font-size: 15px;
+    color: var(--navy);
+  
+}}
+/* ----------FOR MOBILE--------------- */
+@media (max-width: 500px) {
+    
+.process {
+    margin-top: 40px;
+}
+
+.container h3 {
+        font: 700 clamp(22px, 3.5vw, 32px) 'markazi', sans-serif;
+
+}
+.grid {
+    display: grid;
+    gap: 5px
+}
+
+.grid.cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+
+
+.step {
+    display: flex;
+    gap: 10px;
+    background: var(--bg);
+    border: 1px dashed var(--gold);
+    padding: 10px;
+    border-radius: 16px;
+    align-items: flex-start;
+
+}
+
+.step:before {
+    content: counter(step);
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 25px;
+    border-radius: 10px;
+    background: var(--gold);
+    color: var(--gold);
+}
+.step span{
+color: var(--muted);
+font-size: 13px;
+}
+
+.step strong{
+    font-size: 15px;
+    color: var(--navy);
+}}
