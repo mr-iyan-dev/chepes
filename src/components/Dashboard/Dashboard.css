@@ -1,0 +1,155 @@
+/* === Dashboard Layout === */
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 220px;
+  background-color: var(--navy);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.3em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 10px;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: #d1d5db;
+  padding: 12px 15px;
+  margin: 5px 0;
+  text-align: left;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sidebar button:hover {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.sidebar button.active {
+  background-color: var(--gold);
+  color: var(--navy);
+  font-weight: bold;
+}
+
+/* === Main Content === */
+.main-content {
+  flex: 1;
+  padding: 40px 30px;
+}
+
+/* Reuse your existing container styling for the tables */
+.admin-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.admin-container h1 {
+  text-align: center;
+  color: var(--navy);
+  margin-bottom: 20px;
+}
+
+/* Controls styling */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.controls select,
+.controls input {
+  padding: 10px;
+  border: 2px solid var(--gold);
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+/* Table Styling */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.admin-table th {
+  background-color: var(--gold);
+  color: var(--navy);
+  text-transform: uppercase;
+}
+
+/* Status Labels */
+.status {
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.status.pending {
+  background-color: #f9f3c2;
+  color: #a88b00;
+}
+
+.status.approved {
+  background-color: #c2f9c9;
+  color: #087f23;
+}
+
+.status.rejected {
+  background-color: #f9c2c2;
+  color: #b00020;
+}
+
+/* File names */
+.file-name {
+  font-size: 0.9em;
+  margin: 2px 0;
+}
+
+.no-file {
+  font-style: italic;
+  color: #888;
+}
+.files-column {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* space between files */
+}
+
+.file-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.file-item a:hover {
+  text-decoration: underline;
+}
+
+.no-file {
+  color: #888;
+  font-style: italic;
+}

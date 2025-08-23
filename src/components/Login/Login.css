@@ -1,0 +1,147 @@
+:root {
+  --bg: #fefefe;
+  --gold: #ffd700;
+  --navy: #0a0a3d;
+}
+
+.out-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      120deg,
+      rgba(187, 187, 245, 0.836) 10%,
+      rgba(252, 252, 252, 0.938) 90%
+    ),
+    url('../../assets/chepec 5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  background: rgba(17, 13, 2, 0.192);
+  border-radius: 30px;
+  width: 55%;
+  max-width: 450px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 180px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: var(--navy);
+}
+
+.text-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: var(--bg);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.text-input:hover {
+  border: 2px solid var(--gold);
+}
+
+.text-input:focus {
+  outline: none;
+  background-color: #fff8dc;
+  border: 2px solid var(--gold);
+  box-shadow: 0 0 8px rgba(36, 35, 32, 0.7);
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.show-password-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--navy);
+  font-weight: bold;
+}
+
+.show-password-btn:hover {
+  color: var(--gold);
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  color: var(--navy);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: var(--gold);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover:not(:disabled) {
+  color: var(--gold);
+  background-color: var(--bg);
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(10, 9, 4, 0.7);
+}
+
+.login-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+    padding: 30px;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    width: 140px;
+  }
+}
