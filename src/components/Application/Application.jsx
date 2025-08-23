@@ -1,9 +1,7 @@
 // Application.jsx
 import React, { useState } from "react";
 import "./Application.css";
-import { db, storage } from "../../database/firebase";
-import { collection, addDoc } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
+
 
 const Application = () => {
   const [service, setService] = useState("");
