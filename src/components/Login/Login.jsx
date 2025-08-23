@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from '../../assets/chepec-1.png'
 import { useNavigate } from "react-router-dom";
-// import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import "./Login.css";
 
 const Login = () => {
