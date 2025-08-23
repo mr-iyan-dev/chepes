@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from '../component/Navbar/Navbar.jsx'
+import Navbar from '../components/Navbar/Navbar.jsx'
 import Hero from "../components/Hero/Hero"
 import Service from "../components/Service/Service"
 import Testimonials from "../components/Testimonials/Testimonials"
