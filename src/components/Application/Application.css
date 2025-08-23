@@ -1,0 +1,125 @@
+
+  .cont {
+      width: 100%;
+      background: linear-gradient(120deg, var(--bg) 0%, var(--gold) 150%, #e1e7ec 0%, #96b9d4 10%, #c1dff8 0%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .form-container {
+      width: 90%;
+      margin: 30px 0px;
+      background: linear-gradient(120deg, var(--bg) 50%, var(--gold) 150%);
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.678);
+  }
+
+
+
+  .select-container {      
+
+      display: flex;
+      flex-direction: column;
+      max-width: 50%;
+      margin-bottom: 20px;
+  }
+
+  .select-box {
+    width: 100%;      font-family: markazi;
+
+    border: 2px solid var(--gold);
+    padding: 10px 10px;
+    color: var(--navy);
+    font-size: 16px;
+    text-transform: uppercase;
+    background: var(--gold);
+  }
+
+
+
+
+  h1,
+  h2 {
+      color: var(--navy);
+      text-align: center;
+  }
+
+  p {
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      color: var(--navy);
+  }
+
+  form fieldset {
+      border: 1px solid var(--gold);
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 25px;
+  }
+
+  form legend {
+      font-weight: normal;
+      font-size: 1.2em;
+      color: var(--navy);
+      padding: 0 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+
+  .form-group {
+      margin-bottom: 15px;
+  }
+
+  .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--navy);
+
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group textarea,
+  .form-group input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  /* Specific file input styling to match the theme */
+  .form-group input[type="file"] {
+      border: 1px dashed var(--gold);
+      background-color: var(--bg);
+  }
+
+  textarea {
+      resize: vertical;
+      min-height: 100px;
+  }
+
+  .form-button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background-color: var(--gold);
+      color: var(--navy);
+      text-transform: uppercase;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  .form-button:hover {
+      background-color: #e68a00;
+  }
