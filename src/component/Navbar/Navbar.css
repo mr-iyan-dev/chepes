@@ -1,0 +1,328 @@
+
+ /* ----------FOR LAPTOP LARGE--------------- */
+ @media (max-width: 2560px) {.menu img {
+    display: none;
+}
+
+nav {
+    height: 8%;
+    color: white;
+    padding: 44px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.nav_container {
+        width: 100%;
+
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.bookmarks ul li {
+    list-style-type: none;
+    color: rgb(255, 217, 0);
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.bookmarks ul li:hover {
+    color: var(--navy);
+    cursor: pointer;
+}
+
+.navbar_btn {
+    text-transform: uppercase;
+    background: var(--navy);
+    color: var(--gold);
+    font-family: 'markazi';
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.navbar_btn:hover {
+    background: var(--gold);
+    color: var(--navy);
+
+}
+
+.navbar {
+        width: 90%;
+
+    background-color: var(--bg);
+    transition: 0.5s;
+    width: 100%;
+}
+
+.navbar ul li {
+    color: var(--navy);
+}
+
+.navbar ul li:hover {
+    color: var(--gold);
+}
+
+.hamburger,
+.hamburger img {
+    display: none;
+
+
+}}
+  /* ----------FOR LAPTOP Small--------------- */
+ @media (max-width: 1024px) {.menu,
+.menu img {
+    display: none;
+}
+
+nav {
+    height: 8%;
+    color: white;
+    padding: 44px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.nav_container {
+        max-width: 1024px;
+
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.bookmarks ul li {
+    list-style-type: none;
+    color: rgb(255, 217, 0);
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.bookmarks ul li:hover {
+    color: var(--navy);
+    cursor: pointer;
+}
+
+.navbar_btn {
+    text-transform: uppercase;
+    background: var(--navy);
+    color: var(--gold);
+    font-family: 'markazi';
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.navbar_btn:hover {
+    background: var(--gold);
+    color: var(--navy);
+
+}
+
+.navbar {
+        width: 90%;
+
+    background-color: var(--bg);
+    transition: 0.5s;
+    width: 100%;
+}
+
+.navbar ul li {
+    color: var(--navy);
+}
+
+.navbar ul li:hover {
+    color: var(--gold);
+}
+
+.hamburger,
+.hamburger img {
+    display: none;
+
+
+}
+}
+
+/* ----------FOR TABLET--------------- */
+@media screen and (max-width: 768px) and (min-width:426px) {
+    nav {
+        width: 100%;
+        height: 8%;
+        color: white;
+        padding: 22px 0px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .logo {
+        padding-top: 20px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+
+
+    .bookmarks ul li {
+        list-style-type: none;
+        color: rgb(255, 217, 0);
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 10px 5px;
+        font-size: 14px;
+    }
+
+    .bookmarks ul li:hover {
+        color: var(--navy);
+        cursor: pointer;
+    }
+
+    .navbar_btn {
+
+        font-size: 14px;
+
+    }
+
+    .navbar ul li {
+        color: var(--navy);
+    }
+
+    .navbar ul li:hover {
+        color: var(--gold);
+    }
+
+}
+
+/* ----------FOR MOBILE--------------- */
+@media (max-width: 500px) {
+
+
+    .nav_container {
+        width: 200px;
+        height: 50%;
+        padding: 10px 0;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background: var(--bg);
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        z-index: 110;
+        font-size: 14px;
+
+    }
+
+    .bookmarks,
+    .logo {
+        padding: 0 10px;
+
+    }
+
+    .hamburger {
+        background: rgba(1, 1, 65, 0.801);
+        position: relative;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 5px 15px 5px;
+        padding: 5px;
+    }
+
+    .hamburger img {
+        width: 30px;
+        height: 27px;
+        padding: 5px;
+        display: flex;
+
+
+    }
+
+    .bookmarks {
+        padding-bottom: 20px;
+
+        height: 100%;
+
+    }
+
+    .bookmarks ul li {
+        list-style-type: none;
+        color: var(--navy);
+        text-transform: uppercase;
+        margin: 0px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 2.5px 10px;
+    }
+
+    .bookmarks ul li:hover {
+        color: var(--gold);
+        cursor: pointer;
+    }
+
+    .navbar_btn {
+        font-size: 14px;
+    }
+
+    .menu,
+    .menu img {
+        display: flex;
+    }
+
+    .menu {
+        position: fixed;
+        background: var(--navy);
+        padding: 5px;
+        margin: 2.5px;
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
+        z-index: 1100;
+
+    }
+
+    .menu img {
+        width: 30px;
+        height: 27px;
+        padding: 5px;
+    }
+
+    .hide-menu {
+        left: -100%;
+        transition: 0.5 ease-in-out;
+
+    }
+
+
+}
