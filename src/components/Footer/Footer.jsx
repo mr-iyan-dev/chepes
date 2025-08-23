@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import emailIcon from "../../assets/mail-icon.png";
 import locationIcon from "../../assets/location-icon.png";
@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="company" aria-label="">
         <div className="logo-company">
         
-          {/* <Link to="/signin"><img src={logo} alt="" width="100" /></Link> */}
+          <Link to="/signin"><img src={logo} alt="" width="100" /></Link>
         </div>
         <div className="copyright-company">
           <span>
