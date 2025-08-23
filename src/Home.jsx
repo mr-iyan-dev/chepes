@@ -1,8 +1,8 @@
 import React from "react";
 
-import Navbar from '../components/Navbar/Navbar.jsx'
-import Hero from "../components/Hero/Hero"
-// import Service from "../components/Service/Service"
+import Navbar from './components/Navbar/Navbar.jsx'
+import Hero from "./components/Hero/Hero.jsx"
+import Service from "./components/Service/Service.jsx"
 // import Testimonials from "../components/Testimonials/Testimonials"
 // import Processes from "../components/Process/Processes"
 // import Contact from "../components/Contact/Contact"
@@ -15,8 +15,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-   <Hero />
-       <Service />
+   {/* <Hero /> */}
+       {/* <Service /> */}
      
     </>
   );
