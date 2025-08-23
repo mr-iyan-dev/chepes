@@ -1,15 +1,18 @@
 
 @font-face {
-    font-family: 'markazi';
-    src: url('/fonts/MarkaziText-Regular.ttf') format('ttf'), url('/fonts/MarkaziText-Regular.ttf'), format('truetype');
-    font-weight: 100;
+    font-family: 'MarkaziText';
+    src: url('/fonts/MarkaziText-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'aladin';
-    src: url('/fonts/Aladin-Regular.ttf') format('ttf'), url('/fonts/Aladin-Regular.ttf'), format('truetype');
-    font-weight: 100;
+    font-family: 'Aladin';
+    src: url('/fonts/Aladin-Regular.woff2') format('woff2'),
+         url('/fonts/Aladin-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
     font-style: normal;
 }
 

@@ -1,13 +1,86 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chepes</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  /* Preload critical fonts in HTML head */
+  <link rel="preload" href="/fonts/MarkaziText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Aladin-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+/* Markazi Text - Arabic-script font */
+@font-face {
+    font-family: 'MarkaziText';
+    src: url('/fonts/MarkaziText-Regular.woff2') format('woff2'),
+         url('/fonts/MarkaziText-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+
+/* Markazi Text variable font (if available) */
+@font-face {
+    font-family: 'MarkaziText';
+    src: url('/fonts/MarkaziText-Variable.woff2') format('woff2 supports variations'),
+         url('/fonts/MarkaziText-Variable.ttf') format('truetype supports variations');
+    font-display: swap;
+    font-weight: 400 700;
+    font-style: normal;
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+
+/* Aladin - decorative Latin font */
+@font-face {
+    font-family: 'Aladin';
+    src: url('/fonts/Aladin-Regular.woff2') format('woff2'),
+         url('/fonts/Aladin-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Font loading class for FOUT control */
+.font-loading body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-loaded body {
+    font-family: 'MarkaziText', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-loaded .aladin {
+    font-family: 'Aladin', cursive;
+}
+
+/* Basic typography setup */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.aladin {
+    font-family: 'Aladin', cursive;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+
+/* For Arabic/RTL content */
+[dir="rtl"] {
+    font-family: 'MarkaziText', sans-serif;
+    line-height: 1.8; /* Better for Arabic script */
+}
+</style>
+
+  <title>chepes</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
