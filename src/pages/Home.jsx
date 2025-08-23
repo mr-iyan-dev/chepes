@@ -15,15 +15,15 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Service />
+   <Hero />
+        {/*  <Service />
       <Processes />
       <Contact />
       <Testimonials />
       <Faq />
       <Gallery/>
       <Whatsup />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

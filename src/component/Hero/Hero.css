@@ -1,0 +1,646 @@
+/* ----------FOR LAPTOP LARGE--------------- */
+@media (max-width:2560px) {
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(120deg, #77858fbd 0%, #f5b401bb 150%, #e1e7ec 0%, #2e2f30 0%), url(../../assets/image-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .hero_contents,
+    .hero_banner {
+        padding-top: 8%;
+        padding-left: 10px;
+    }
+
+    .hero_contents {
+        width: 50%;
+    }
+
+    .hero_banner {
+        width: 35%;
+
+    }
+
+    .kicker {
+        margin-top: 10px;
+        display: inline-block;
+        background: var(--bgShadow);
+        border: 1px solid rgba(255, 255, 255, .2);
+        padding: 15px 20px;
+        border-radius: 999px;
+        font: 900 clamp(30px, 14vw, 30px) aladin, sans-serif;
+        color: var(--gold);
+        letter-spacing: .3px;
+
+    }
+
+    .hero h2 {
+        font: 900 clamp(30px, 14vw, 50px) aladin, sans-serif;
+        line-height: 1;
+        margin: 16px 0;
+    }
+
+
+    .hero_p {
+        color: var(--navy);
+        max-width: 78%;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px 10px;
+        margin-left: 100px;
+    }
+
+    .hero .badge-strip {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 100px;
+        font-size: 20px;
+
+        flex-wrap: wrap;
+        max-width: 80%;
+    }
+
+    .badge {
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        background: var(--gold);
+        border: 1px solid rgba(255, 255, 255, .18)
+    }
+
+    .hero-visual {
+        position: relative;
+        left: 10px;
+    }
+
+    .card {
+        background: var(--navy);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 20px;
+    }
+
+    .card_info p,
+    small {
+        font-size: 20px;
+        color: var(--gold);
+    }
+
+    .pass-card {
+
+        left: 20px;
+        width: min(600px, 90%)
+    }
+
+    .ticket {
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 600;
+        color: var(--gold)
+    }
+
+    .ticket small {
+        color: var(--muted);
+        font-weight: 500
+    }
+
+    .banner_image {
+        margin-top: 25%;
+        position: relative;
+        margin: 20px;
+    }
+
+    .banner_image img {
+        width: 200px;
+    }
+
+    .hero_box2 {
+        display: block;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .hero_box2 img {
+        width: 400px;
+    }
+
+    .cta-row {
+        display: flex;
+        gap: 100px;
+        margin-top: 22px
+    }
+
+    .cta-row .btn {
+        margin-top: 10px;
+        padding: 20px 40px;
+        border-radius: 10px;
+        background-color: var(--navy);
+        color: var(--gold);
+        text-transform: uppercase;
+
+    }
+
+    .cta-row .btn:hover {
+        padding: 20px 40px;
+        border-radius: 10px;
+        background-color: var(--gold);
+        color: var(--sky);
+
+    }
+}
+
+/* ----------FOR LAPTOP SMALL--------------- */
+@media (max-width:1025px) {
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .hero_contents,
+    .hero_banner {
+        padding-top: 10%;
+        padding-left: 10px;
+    }
+
+    .hero_contents {
+        width: 60%;
+    }
+
+    .hero_banner {
+        width: 40%;
+
+    }
+
+    .kicker {
+        margin-top: 10px;
+        display: inline-block;
+        background: var(--bgShadow);
+        border: 1px solid rgba(255, 255, 255, .2);
+        padding: 9px 20px;
+        border-radius: 999px;
+        font: 400 clamp(10px, 14vw, 16px) markazi, sans-serif;
+        color: var(--gold);
+        letter-spacing: .3px;
+
+    }
+
+    .hero h2 {
+        font: 900 clamp(30px, 14vw, 50px) aladin, sans-serif;
+        line-height: 1;
+        margin: 10px 0;
+    }
+
+
+    .hero_p {
+        color: var(--navy);
+        max-width: 100%;
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px 10px;
+        margin-left: 0px;
+    }
+
+    .hero .badge-strip {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 16px;
+        flex-wrap: wrap;
+        max-width: 80%;
+    }
+
+    .badge {
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: var(--gold);
+        border: 1px solid rgba(255, 255, 255, .18)
+    }
+
+    .hero-visual {
+        position: relative;
+        left: 10px;
+    }
+
+    .card {
+        background: var(--navy);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 10px;
+    }
+
+    .card_info p,
+    small {
+        font-size: 16px;
+        color: var(--gold);;
+    }
+
+    .pass-card {
+
+        left: 20px;
+        width: min(600px, 90%)
+    }
+
+    .ticket {
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 400;
+        color: var(--gold)
+    }
+
+    .ticket small {
+        color: var(--muted);
+        font-weight: 400;
+    }
+
+    .banner_image {
+        margin-top: 25%;
+        position: relative;
+        margin: 20px;
+    }
+
+    
+
+    .hero_box2 {
+        display: block;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .hero_box2 img {
+        width: 300px;
+    }
+
+    .cta-row {
+        display: flex;
+        gap: 100px;
+        margin-top: 22px
+    }
+
+    .cta-row .btn {
+        margin-top: 10px;
+        padding: 20px 40px;
+        border-radius: 10px;
+        background-color: var(--navy);
+        color: var(--gold);
+        text-transform: uppercase;
+
+    }
+
+    .cta-row .btn:hover {
+        padding: 20px 40px;
+        border-radius: 10px;
+        background-color: var(--gold);
+        color: var(--sky);
+
+    }
+}
+
+
+
+/* ----------FOR TABLET--------------- */
+@media (max-width: 768px) {
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+
+    }
+
+    .hero_contents,
+    .hero_banner {
+        padding-top: 9%;
+    }
+
+    .hero_contents {
+        width: 60%;
+    }
+
+    .hero_banner {
+        width: 40%;
+
+    }
+
+    .kicker {
+        margin-top: 10px;
+        display: inline-block;
+        background: var(--bgShadow);
+        border: 1px solid rgba(255, 255, 255, .2);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-weight: 600;
+        color: var(--gold);
+        letter-spacing: .3px;
+        font-size: 14px;
+
+    }
+
+    .hero h2 {
+        font: 900 clamp(30px, 14vw, 50px) aladin, sans-serif;
+        line-height: 1;
+        margin: 16px 0;
+    }
+
+
+    .hero_p {
+        color: var(--navy);
+        max-width: 78%;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px 10px;
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+
+    .hero .badge-strip {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .badge {
+
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background: var(--gold);
+        border: 1px solid rgba(255, 255, 255, .18);
+        font-size: 14px;
+    }
+
+    .hero-visual {
+        position: relative;
+        left: 10px;
+        width: 280px;
+    }
+
+    .card {
+
+        padding: 10px;
+    }
+
+    .card_info p,
+    small {
+        color: var(--gold);
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .pass-card {
+
+        left: 20px;
+        width: min(600px, 90%)
+    }
+
+    .ticket {
+
+        font-weight: 300;
+    }
+
+
+
+    .banner_image {
+        margin-top: 50%;
+        position: relative;
+        margin: 20px;
+    }
+
+    .banner_image img {
+        width: 100px;
+    }
+
+    .hero_box2 {
+        display: block;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero_box2 img {
+        width: 300px;
+    }
+
+    .cta-row {
+        display: flex;
+        gap: 100px;
+        margin-top: 22px;
+        font-size: 14px;
+    }
+
+    .cta-row .btn {
+        margin-top: 10px;
+        padding: 15px 30px;
+        text-transform: uppercase;
+
+    }
+
+    .cta-row .btn:hover {
+        padding: 15px 30px;
+
+
+    }
+
+}
+
+/* ----------FOR MOBILE--------------- */
+@media (max-width: 500px) {
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .hero_contents,
+    .hero_banner {
+        padding-top: 10px;
+        padding-left: 10px;
+
+    }
+
+    .hero_contents {
+        width: 100%;
+    }
+
+    .hero_banner {
+        width: 100%;
+
+    }
+
+    .kicker {
+        margin: 10px;
+        float: right;
+        background: var(--bgShadow);
+        border: 1px solid rgba(255, 255, 255, .2);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-weight: 300;
+        color: var(--gold);
+        letter-spacing: .3px;
+        font-size: 12px;
+
+    }
+
+    .hero h2 {
+        font: 900 clamp(30px, 14vw, 20px) aladin, sans-serif;
+        line-height: 1;
+        margin: 50px 0px 5px 0px;
+    }
+
+
+    .hero_p {
+        color: var(--navy);
+        max-width: 96%;
+        font-size: 13px;
+        text-align: justify;
+        padding: 5px 5px;
+        margin-left: 0px;
+
+    }
+
+    .hero .badge-strip {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .badge {
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 2.5px 10px;
+        border-radius: 5px;
+        background: var(--gold);
+        border: 1px solid rgba(255, 255, 255, .18);
+        font-size: 13px;
+    }
+
+    .hero-visual {
+        position: relative;
+        left: 5px;
+
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .card {
+        background: var(--navy);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 9px;
+    }
+
+    .card_info p,
+    small {
+        color: var(--gold);
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    .pass-card {
+
+        left: 20px;
+        width: min(280px, 90%)
+    }
+
+    .ticket {
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 200;
+        color: var(--gold)
+    }
+
+    .ticket small {
+        color: var(--muted);
+        font-weight: 900
+    }
+
+    .banner_image {
+        margin-top: 0%;
+        position: relative;
+    }
+
+    .banner_image img {
+        width: 100px;
+    }
+
+    .hero_box2 {
+        display: block;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero_box2 img {
+        width: 200px;
+    }
+
+    .cta-row {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .cta-row .btn {
+        padding: 12px 15px;
+        border-radius: 10px;
+        background-color: var(--navy);
+        color: var(--gold);
+        text-transform: uppercase;
+
+    }
+
+    .cta-row .btn:hover {
+
+        background-color: var(--gold);
+        color: var(--navy);
+    }
+
+
+
+}
