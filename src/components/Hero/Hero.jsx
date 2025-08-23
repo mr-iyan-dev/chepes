@@ -99,9 +99,9 @@ const Hero = () => {
         </div>
 
         <div className="cta-row">
-          {/* <Link to="/form" className="btn primary">
+          <Link to="/form" className="btn primary">
             Start Application
-          </Link> */}
+          </Link>
           <a className="btn ghost" href="#servicesId">
             Explore Services
           </a>

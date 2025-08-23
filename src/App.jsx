@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Home = lazy(() => import("./Home.jsx"));
-// const Form = lazy(() => import("./pages/Form.jsx"));
+const Form = lazy(() => import("./pages/Form.jsx"));
 // const Signin = lazy(() => import("./pages/Signin.jsx"));
 // const Admin = lazy(() => import("./pages/Admin.jsx"));
 
@@ -14,8 +14,8 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
 
-          {/* <Route path="/form" element={<Form />} />
-          <Route path="/signin" element={<Signin />} />
+          <Route path="/form" element={<Form />} />
+          {/* <Route path="/signin" element={<Signin />} />
           <Route path="/admin" element={<Admin />} /> */}
         </Routes>
       </Suspense>
