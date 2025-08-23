@@ -1,0 +1,374 @@
+
+/* ----------FOR LAPTOP LARGE--------------- */
+@media (max-width: 2560px)  {
+      .testimonials_container {
+        height: 70vh;
+        width: 100%;
+    padding: auto 10px;
+    position: relative;
+    background-color: var(--bg);
+
+}
+.testimonials_container h3{
+    color: var(--navy);
+    font-size: 30px;
+    text-transform: uppercase;
+        text-shadow: 0px 2px 0px gold;
+
+    
+
+}
+.next-btn,
+.back-btn {
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    padding: 20px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--navy);
+    z-index: 10;
+}
+
+.back-btn {
+    right: auto;
+    left:  1%;
+}
+
+.slider {
+    overflow: hidden;
+}
+.gallery-image img{
+height: 50vh;
+width: 30vw;
+}
+.slider ul {
+    display: flex;
+    width:95%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 100px 30px;
+
+}
+
+.slider ul li {
+    list-style: none;
+    width: 200%;
+    padding:10px 5px;
+}
+
+
+
+
+
+}
+
+/* ----------FOR LAPTOP SMALL--------------- */
+@media (max-width:1025px)  {  .testimonials_container {
+        height: 70vh;
+        width: 99%;
+    margin: 10px 5px;
+    padding: auto 10px;
+    position: relative;
+    background-color: var(--bg);
+
+}
+.testimonials_container h3{
+    color: var(--navy);
+    font-size: 30px;
+    text-transform: uppercase;
+        text-shadow: 0px 2px 0px gold;
+
+    
+
+}
+.next-btn,
+.back-btn {
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--navy);
+    z-index: 10;
+}
+
+.back-btn {
+    right: auto;
+    left:  1%;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width:145%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 100px 30px;
+
+}
+
+.slider ul li {
+    list-style: none;
+    width: 100%;
+    padding:10px 5px;
+}
+
+.slide {
+    padding: 50px 50px;
+    border-radius: 20px;
+    color: var(--navy);
+    line-height: 1;
+    background-color: var(--gold);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.slide img {
+    background-color: var(--navy);
+    padding: 10px;
+    border-radius: 20px;
+    border: var(--gold) solid 2px;
+    width: 70px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px 0px;
+}
+
+.user-info h4 {
+    color: var(--navy);
+    font-size:20px ;
+}
+
+.user-info span {
+    color: var(--muted);
+
+}
+
+.para p {
+    color: var(--navy);
+    text-align: justify;
+    padding: 0px 10px;
+        font-size:15px ;
+} }
+
+/* ----------FOR TABLET--------------- */
+@media screen and (max-width: 768px) and (min-width:501px){
+    .testimonials_container {
+        height: 50vh;
+        width: 99%;
+    margin: 10px 5px;
+    padding: auto 10px;
+    position: relative;
+    background-color: var(--bg);
+
+}
+.testimonials_container h3{
+    color: var(--navy);
+    font-size: 30px;
+    text-transform: uppercase;
+        text-shadow: 0px 2px 0px gold;
+
+    
+
+}
+.next-btn,
+.back-btn {
+    margin-top: 50px;
+    position: absolute;
+    top: 45%;
+    right: 1%;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--navy);
+    z-index: 10;
+}
+
+.back-btn {
+    right: auto;
+    left:  1%;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width:145%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 20px 30px;
+
+}
+
+.slider ul li {
+    list-style: none;
+    width: 100%;
+    padding:10px 5px;
+}
+
+.slide {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: var(--navy);
+    line-height: 1;
+    background-color: var(--gold);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.slide img {
+    background-color: var(--navy);
+    padding: 10px;
+    border-radius: 20px;
+    border: var(--gold) solid 2px;
+    width: 50px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px 0px;
+}
+
+.user-info h4 {
+    color: var(--navy);
+    font-size:15px ;
+}
+
+.user-info span {
+    color: var(--muted);
+
+}
+
+.para p {
+    color: var(--navy);
+    text-align: justify;
+    padding: 0px 10px;
+        font-size:14px ;
+}    
+}
+
+/* ----------FOR MOBILE--------------- */
+@media (max-width: 425px) {
+    .testimonials_container {
+        height: 20vh;
+        width: 98%;
+    margin: 0px 5px;
+    padding: auto 10px;
+    position: relative;
+    background-color: var(--bg);
+
+}
+.testimonials_container h3{
+    color: var(--navy);
+    font-size: 30px;
+    text-transform: uppercase;
+        text-shadow: 0px 2px 0px gold;
+
+    
+
+}
+.next-btn,
+.back-btn {
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 7px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--navy);
+    z-index: 10;
+}
+
+.back-btn {
+    right: auto;
+    left:  0;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width:230%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 15px;
+
+}
+
+.slider ul li {
+    list-style: none;
+    width: 90%;
+    padding:1px 5px;
+}
+
+.slide {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: var(--navy);
+    line-height: 1;
+    background-color: var(--gold);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.slide img {
+    background-color: var(--navy);
+    padding: 5px;
+    border-radius: 20px;
+    border: var(--gold) solid 2px;
+    width: 30px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px 0px;
+}
+
+.user-info h4 {
+    color: var(--navy);
+    font-size:12px ;
+}
+
+.user-info span {
+    color: var(--muted);
+
+}
+
+.para p {
+    color: var(--navy);
+    text-align: justify;
+    padding: 0px 10px;
+        font-size:12px ;
+}
+}

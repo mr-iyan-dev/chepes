@@ -5,11 +5,11 @@ import Hero from "./components/Hero/Hero.jsx";
 import Service from "./components/Service/Service.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Processes from "./components/Process/Processes.jsx";
-// import Contact from "./components/Contact/Contact"
-// import Faq from "../components/Faq/Faq"
-import Footer from "./components/Footer/Footer";
-// import Whatsup from "./components/Whatsup/Whatsup"
-// import Gallery from "./components/Gallery/Gallerys"
+import Contact from "./components/Contact/Contact.jsx"
+import Faq from "./components/Faq/Faq.jsx"
+import Footer from "./components/Footer/Footer.jsx";
+import Whatsup from "./components/Whatsup/Whatsup.jsx"
+import Gallery from "./components/Gallery/Gallerys.jsx"
 
 const Home = () => {
   return (
@@ -18,8 +18,11 @@ const Home = () => {
       <Hero />
       <Service />
       <Processes />
-
+      <Contact />
       <Testimonials />
+       <Faq />
+      <Gallery/>
+      <Whatsup />
       <Footer/>
     </>
   );

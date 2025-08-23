@@ -1,0 +1,233 @@
+/* ----------FOR LAPTOP LARGE--------------- */
+@media (max-width: 2560px) {
+    .about-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px;
+        padding: 10px 0px;
+    }
+
+    .video-space {
+        width: 45%;
+        height: 100%;
+        background: url("../../assets/gallery-2.png");
+    }
+
+    .video-space img {
+        width: 100%;
+    }
+
+    .about-us {
+        width: 45%;
+
+    }
+
+    .about-us h3 {
+        color: var(--gold);
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 55px;
+        text-align: center;
+        margin: 10px 10px;
+
+    }
+
+    .about-us p {
+        text-align: justify;
+        line-height: 1.4;
+        font-size: 20px;
+        color: var(--navy);
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+color: var(--navy);
+    }
+
+    .contact {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+    .contact img{
+        width: 25px;
+    }
+.contacts ul{
+    list-style: none;        
+
+}
+.contacts ul li p{
+    list-style: none;        
+font-size: 20px;
+}
+}
+
+/* ----------FOR LAPTOP SMALL--------------- */
+@media (max-width:1025px) {
+    .about-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px;
+        padding: 10px 0px;
+    }
+
+    .video-space {
+        width: 45%;
+        height: 100%;
+        background: url("../../assets/gallery-2.png");
+    }
+
+    .video-space img {
+        width: 100%;
+    }
+
+    .about-us {
+        width: 45%;
+
+    }
+
+    .about-us h3 {
+        color: var(--gold);
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 10px;
+
+    }
+
+    .about-us p {
+        text-align: justify;
+        line-height: 1.4;
+        font-size: 14px;
+        color: var(--navy);
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+color: var(--navy);
+    }
+
+    .contact {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 5px;
+    }
+    .contact img{
+        width: 20px;
+    }
+.contacts ul{
+    list-style: none;        
+
+}
+.contacts ul li p{
+    list-style: none;        
+font-size: 14px;
+}
+
+}
+
+/* ----------FOR TABLET--------------- */
+@media screen and (max-width: 768px) and (min-width:501px) {
+    .about-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0px;
+        padding: 10px 0px;
+    }
+
+    .video-space {
+        width: 45%;
+        height: 100%;
+        background: url("../../assets/gallery-2.png");
+    }
+
+    .video-space img {
+        width: 100%;
+    }
+
+    .about-us {
+        width: 45%;
+
+    }
+
+    .about-us h3 {
+        color: var(--gold);
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 35px;
+        text-align: center;
+        margin: 10px 10px;
+
+    }
+
+    .about-us p {
+        text-align: justify;
+        line-height: 1.4;
+        font-size: 14px;
+        color: var(--navy);
+    }
+
+
+}
+
+/* ----------FOR MOBILE--------------- */
+@media (max-width: 500px) {
+    .about-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 10px;
+        padding: 10px 0px;
+    }
+
+    .video-space {
+        width: 100%;
+        height: 100%;
+        background: url("../../assets/gallery-2.png");
+    }
+
+    .video-space img {
+        width: 100%;
+    }
+
+    .about-us {
+        width: 100%;
+        /* background: linear-gradient(170deg, rgba(231, 214, 130, 0.733), rgba(255, 255, 255, 0.253)); */
+
+    }
+
+    .about-us h3 {
+        color: var(--gold);
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-size: 25px;
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    .about-us p {
+        text-align: justify;
+        line-height: 1;
+        color: var(--navy);
+    }
+
+}
+
+
+
+
+
+
