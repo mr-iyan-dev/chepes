@@ -12,9 +12,7 @@
     color: var(--gold);
     font-size: 50px;
     text-transform: uppercase;
-        margin: 5px 0 10px;
 
-       text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.849);
 
 }
 
@@ -119,7 +117,6 @@
     text-transform: uppercase;
         margin: 5px 0 10px;
 
-       text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.849);
 
 }
 
@@ -228,7 +225,7 @@
 
 .service_container p.lead {
    text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 
 }
 
@@ -271,7 +268,7 @@
 }
 
 .service .service_info p {
-    font-size: 14px;
+    font-size: 13px;
     
     letter-spacing: 1.25px;
 
@@ -308,7 +305,6 @@
     font-size: 20px;
     text-transform: uppercase;
     margin: 5px 0 10px;
-     text-shadow: 0px 2px 0px rgb(0, 0, 0);
 
 }
 
@@ -334,7 +330,7 @@
     margin: 5px;
     background: linear-gradient(170deg, #e1e7ec 0%, rgba(255, 217, 0, 0.432) 150%, #e1e7ec 0%, #96b9d4 10%, #c1dff8 0%);
     border-radius: 2px;
-    padding: 20px 0px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
     gap: 0px;
@@ -365,7 +361,7 @@
 
 .service .service_info p {
     text-align: justify;
-    font-size: 14px;
+    font-size: 13px;
     color: var(--navy);
     letter-spacing: 1px;
 

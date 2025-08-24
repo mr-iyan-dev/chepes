@@ -14,7 +14,7 @@
 }
 
 :root {
-    --navy: navy;
+    --navy: rgb(16, 16, 70);
     /* deep blue */
     --navy-900: #081D2F;
     --sky: #0F6AA6;
