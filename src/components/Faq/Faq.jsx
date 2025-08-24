@@ -32,7 +32,7 @@ const Faq = () => {
         </details>
        </div>
        <div className="video-container">
-        <video src={video} loop autoPlay controls muted width='100px'></video>
+        <video src={video} loop autoPlay controls  width='100px'></video>
        </div>
       </div>
   )
