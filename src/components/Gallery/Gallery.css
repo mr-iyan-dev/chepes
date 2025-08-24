@@ -237,10 +237,11 @@ width: 30vw;
 .gallery-image img{
 height: 50vh;
 width: 50vw;
+object-fit: cover;
 }
 .slider ul {
     display: flex;
-    width:150%;
+    width:170%;
     overflow-x: hidden;
     transition: 0.5s;
     padding: 100px 30px;
